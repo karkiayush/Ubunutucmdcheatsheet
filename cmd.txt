@@ -1,0 +1,128 @@
+sudo apt purge google-chrome-stable
+rm-rf/home/aayush/.config/google-chrome
+rm-rf/home/aayush/.cache/google-chrome
+
+
+Linux commands
+
+ls : to list the directory content 
+pwd : print working directory
+cd/ : means to change the pwd to / node
+pwd : gives us the info of parent
+ls: gives the info of the child of that particular directory
+IMPORTANT FILES IN THE / NODE :
+a. etc  b.bin   c.tmp  d.var   e.
+mkdir : to make the new directory
+pwd : to print the present directory
+rm file name : to delete the particular files from the device
+rm -r -f nameOfFolder : to delete the folder, where -r means recursively dlt and -f means forcefully dlt the folder since there will be such types of files that doesn't want to be deleted Where is linux?
+ ●TV,
+  Mobile Phones.
+  Self Driving Car.
+  Plane.
+ •Rocket.
+ •Many Websites are hosted in Linux.
+
+
+Who Uses Linux?
+  US Government
+ •Top Tech Companies like Google,Microsoft,Amazon by various means.
+  Hackers.
+ •Financial Institutes.
+ •Computer Programmers and Researchers.
+  Those who want to acquire high technical knowledge.
+
+
+some of the Points to Remember
+Folder in linux called directory.
+Linux is a case sensitive System. A is different than a.
+Avoid using filename as space.
+Super Admin is also called root who can do anything.
+Software is called a package.
+
+
+Command Need to Enter
+sudo apt-get upgrade
+sudo apt-get update
+
+Everyday Linux Commands
+pwd : print working directory
+whoami : Display information about user.
+hostname : Display host name.
+cd / : Go to root directory.
+THe combination is : username@hostname
+ls : to list all of the files  
+mkdir foldername To make Folder.
+rmdir foldername To delete Folder.
+touch : Create a file.
+echo "Hello" > lsh1.txt => It saves Hello to chl.txt
+cat fileName : to see the content insde of the file 
+ls -l : to see the info of all of the files present in particular folder
+rm -R Lesson => Delete Folder named Lesson with its contents
+touch ch{1..9}.txt : to make the file(say : txt ) from 1 to 9
+cp source dest => for copy content form one place to another
+mv source dest => for moving content form one place to another
+rm doc* : to delete all of the files named after doc of a particular folder
+find -name doc1.txt : to find the file name doc1.txt where the whole path will be shown
+sudo restart : to restart the system.
+
+       			    USERS IN LINUX
+Regular User : have the access of only home directory. $ indicates
+regular user.
+Root User : have the access of all of the directory carrying the full
+access . This user is aka ADMIN / SUPER USER 
+
+sudo su : it is used if we wanna take all the access for things like 
+making files and etc. Not recommended to use it .
+
+   			ABSOLUTE VS RELATIVE PATH   			
+ Absolute path is used if we wanna go in any folder that is not the 
+ member of your's pwd. It always starts with / after cd commands.
+ Ex: if i'm in the coding directory and I wanna go to the tutorial 
+ directory of the videos directory then the Absolute path is : 
+     cd /videos/tutorial
+ 
+ 
+Relative path is like if you wanna move onto another directory that is
+connected part of pwd then Relative path is used 
+EG:
+cd cpp => changes the directory from coding to cpp
+
+
+sudo apt update : updates the list of software that can be installed 
+on the system.
+sudo apt-get update : for the ubuntu version < 16
+sudo apt upgrade : upgrade the sotware
+apt : helps us to install software
+ls -R : list all of the content of the subdiretory of the system
+touch .hidden : . command makes the hidden files 
+ls -a : list all of the files i.e hidden and unhidden 
+ls -lart : gives the info all the directory made , file stored in it.
+history : to look the history.
+echo ak : to print ak in terminal
+printf"ak" : prints the ak in terminal
+ls -l : to see the read write permission given to user, group and other
+chmod calculator to change the mode of accessiblity.
+command : chmod Number filename.extension
+top : gives the info of the all the top process that uses the lotta 
+resources in the system
+enter q : to stop the listing of the resources used .
+ps : to list all the running processes 
+ps -a : to list all of the running process from background and 
+frontside
+kill pid_num : to kill the running programmes
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
