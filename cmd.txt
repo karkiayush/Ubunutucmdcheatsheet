@@ -2,9 +2,8 @@ sudo apt purge google-chrome-stable
 rm-rf/home/aayush/.config/google-chrome
 rm-rf/home/aayush/.cache/google-chrome
 
-Linux is developed by linux torvalds
 Linux commands
-ssfsfsfd
+
 ls : to list the directory content 
 pwd : print working directory
 cd/ : means to change the pwd to / node
